@@ -29,7 +29,7 @@ Swagger UI is included for easy testing and documentation.
 
 ##  Setup Instructions
 
-1. **Clone the repository**:
+1. Clone the repository:
    git clone https://github.com/arilakshme-05/bookstore-rest-api.git
    cd bookstore-rest-api
 
