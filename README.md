@@ -1,4 +1,4 @@
-# 📚 Bookstore REST API
+#  Bookstore REST API
 
 A modular backend project built with **FastAPI**, **SQLAlchemy**, and **JWT authentication**.  
 This API allows users to register, log in, and manage books with full CRUD functionality.  
@@ -6,7 +6,7 @@ Swagger UI is included for easy testing and documentation.
 
 ---
 
-## 🚀 Features
+##  Features
 - User registration and login with secure password hashing
 - JWT-based authentication and protected endpoints
 - CRUD operations for books (create, read, update, delete)
@@ -16,7 +16,7 @@ Swagger UI is included for easy testing and documentation.
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 - **Python 3.11+**
 - **FastAPI** (web framework)
 - **SQLAlchemy** (ORM)
@@ -27,19 +27,22 @@ Swagger UI is included for easy testing and documentation.
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/bookstore-rest-api.git
+1. **Clone the repository**:
+   git clone https://github.com/arilakshme-05/bookstore-rest-api.git
    cd bookstore-rest-api
-2.Create a virtual environment
+
+2.Create a virtual environment:
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-3.Install dependencies
+
+3.Install dependencies:
 pip install -r requirements.txt
-4.Run the server
+
+4.Run the server:
 uvicorn bookstore_api.main:app --reload
-5.Open Swagger UI
+
+5.Open Swagger UI:
 Visit: http://127.0.0.1:8000/docs
